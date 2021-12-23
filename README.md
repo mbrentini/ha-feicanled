@@ -3,6 +3,8 @@
 ![Hassfest](https://github.com/mbrentini/ha-feicanled/actions/workflows/hassfest.yaml/badge.svg)
 ![HACS](https://github.com/mbrentini/ha-feicanled/actions/workflows/hacs.yml/badge.svg)
 
+Not working right now. WIP.
+
 Home Assistant integration for BLE based Feican LED lights.
 
 Supports controlling BLE based lights controllable through the LED LAMP or LEDBLE apps.
