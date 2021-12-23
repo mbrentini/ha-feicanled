@@ -1,0 +1,12 @@
+{
+    "domain": "feicanled",
+    "name": "Feican LED",
+    "documentation": "https://github.com/mbrentini/ha-feicanled",
+    "issue_tracker": "https://github.com/mbrentini/ha-feicanled/issues",
+    "config_flow": true,
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": ["bleak==0.13.0"],
+    "iot_class": "local_polling",
+    "version": "0.0.1"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Feican LED",
+    "content_in_root": true,
+    "domains": ["light"],
+    "render_readme": true
+  }
