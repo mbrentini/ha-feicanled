@@ -4,7 +4,7 @@
 Very sketchy right now. WIP.
 
 Home Assistant integration for BLE based Feican LED lights such as https://www.aliexpress.com/item/1005001737650768.html
-Usually these RGB Bluetooth lights are controlled via the "LED LAMP" app. 
+Usually these RGB Bluetooth lights are controlled via the "LED LAMP" app. The Bluetooth device name is usually LEDBLE-xx-xxxx.
 
 ## Installation
 
