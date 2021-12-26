@@ -1,13 +1,10 @@
 # ha-feicanled
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/mbrentini/ha-feicanled)
-![Hassfest](https://github.com/mbrentini/ha-feicanled/actions/workflows/hassfest.yaml/badge.svg)
-![HACS](https://github.com/mbrentini/ha-feicanled/actions/workflows/hacs.yml/badge.svg)
 
-Not working right now. WIP.
+Very sketchy right now. WIP.
 
-Home Assistant integration for BLE based Feican LED lights.
-
-Supports controlling BLE based lights controllable through the LED LAMP or LEDBLE apps.
+Home Assistant integration for BLE based Feican LED lights such as https://www.aliexpress.com/item/1005001737650768.html
+Usually these RGB Bluetooth lights are controlled via the "LED LAMP" app. 
 
 ## Installation
 
@@ -35,7 +32,6 @@ The setup needs to be repeated for each light.
 ## Features
 1. Discovery: Automatically discover Feican LED based lights without manually hunting for Bluetooth MAC address
 2. On/Off/RGB/Brightness support
-3. Live state polling: External control (i.e. IR remote) state changes will reflect in Home Assistant
 4. Emulated RGB brightness: Supports adjusting brightness of RGB lights
 5. Multiple light support
 
@@ -59,4 +55,4 @@ logger:
 ```
 
 ## Credits
-sysofwan for his great Triones integration
+sysofwan for his Triones integration that served as a basis for this one https://github.com/sysofwan/ha-triones/issues 
