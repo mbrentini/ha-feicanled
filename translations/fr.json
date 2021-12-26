@@ -1,0 +1,35 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "mac": "Adresse MAC",
+                    "name": "Nom"
+                },
+                "title": "Sélectionnez une lampe de type Feican LED. La lampe doit être à portée de l'appareil."
+            },
+            "validate": {
+                "data": {
+                    "retry": "Rééssayer la connexion?",
+                    "flicker": "Did the light blink?"
+                },
+                "title": "Validation de la connexion"
+            },
+            "manual": {
+                "data": {
+                    "mac": "Adresse MAC",
+                    "name": "Nom"
+                },
+                "title": "Adresse MAC"
+            }
+        },
+        "error": {
+            "connect": "Connexion impossible"
+        },
+        "abort": {
+            "cannot_validate": "Validation de la connexion impossible",
+            "cannot_connect": "Connexion impossible"
+        }
+    },
+    "title": "Feican LED"
+}

@@ -101,15 +101,10 @@ class FeicanledFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
             self.feicanled_instance = FeicanledInstance(self.mac)
         try:
             await self.feicanled_instance.update()
-            if self.feicanled_instance.is_on:
-                await self.feicanled_instance.turn_off()
-                await asyncio.sleep(2)
-                await self.feicanled_instance.turn_on()
-            else:
-                await self.feicanled_instance.turn_on()
-                await asyncio.sleep(2)
-                await self.feicanled_instance.turn_off()
+            # await self.feicanled_instance._write(bytearray([0x7E, 0x07, 0x05, 0x03, 0xFF, 0x00, 0x00, 0x00, 0xEF])) # rouge
+            await asyncio.sleep(1)
         except (Exception) as error:
+            LOGGER.error(error)
             return error
         finally:
             await self.feicanled_instance.disconnect()
